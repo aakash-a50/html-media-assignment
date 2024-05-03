@@ -1,0 +1,50 @@
+1. Conditional operators in Java are used to perform comparisons and make decisions based on conditions. The main conditional operators in Java are:
+== (equal to)
+!= (not equal to)
+< (less than)
+> (greater than)
+<= (less than or equal to)
+>= (greater than or equal to)
+
+2. Operators in Java can be categorized based on the number of operands they require:
+Arithmatic operators: Operate on two operand.
+Relational operators: Operate on two operand
+Unary operators: Operate on a single operand.
+Ternary operator: Operates on three operands.
+
+3. The switch case statement in Java is used to execute one block of code from multiple options based on the value of a expression.
+
+4. The priority levels of arithmetic operations in Java, from highest to lowest precedence, are as follows:
+(i) Parentheses ()
+(ii) Unary operators (-, +)
+(iii) Multiplication *, Division /, Modulus %
+(iv) Addition +, Subtraction -
+
+5. Conditional statements in Java are used to execute code based on certain conditions. The main types of conditional statements in Java are:
+if statement
+if-else statement
+switch statement
+
+6.The syntax of the if statement in Java is as follows:
+if (condition) {
+    // code to be executed if the condition is true
+}
+
+7.The three types of iterative statements in Java are:
+for loop
+while loop
+do-while loop
+
+8.The main difference between the for loop and the do-while loop in Java is that the loop body of do while will be executed atleast once.
+
+9. 
+public class PrintNumbers()
+{
+    public static void main(String[]args)
+    {
+        for(int i=1;i<=10;i++)
+        {
+           system.out.println(i);
+        }
+    }
+}
