@@ -1,0 +1,30 @@
+1. Git is distributed version control system which enables developers to collaborate with team and maintain the history of changes that is done by the developers.
+
+2. In Version control system we maintain the history of changes that is done by the developers and copies of previous versions are maintained, So that If the new version of software is not working properly then we can rollback to the previous versions.
+
+3. Github is a server repository or main repository where every team member can access and store the final work.
+
+4. Popular Git hosting services include:
+
+GitHub
+GitLab
+Bitbucket
+
+5. There are two types of version control system:
+
+a. Centralised version control system.
+b. Distributed version control system.
+
+6. Benefits of Git are :
+
+a. Allows developers to work independently and merge code later
+b. Support local repositories where we can store the work and later push it to the server repository.
+c. Allow team members to work in a collaborative environment.
+
+7. Git repository is a collection of files and directories along with the version history of those files.
+
+8. To initialise a Git repository, we can use the 'git init' command in the directory.
+
+cd /path/to/your/project
+git init
+
