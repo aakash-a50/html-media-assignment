@@ -1,0 +1,23 @@
+1. Open the command prompt and run the command "git --version", It will show the version of git software if it is installed on your system.
+
+2. git init command is used to initialise a new Git repository.
+
+3. git config --global user.email "aakashjangid0@gmail.com"
+   git config --global user.name "Aakash Kumar Jangid"
+
+4. If we want to add all the files then we use git add .
+   If we want to add a particular file then we git add filename
+
+5. git rm --cached filename
+
+6. Use git commit -m for quick commits with a specific message.
+   Use git commit -a to quickly commit changes to already tracked files without needing to add them manually.
+
+7. use " git push -u origin main " command If you are pushing it for the first time and use git push later on.
+
+8. git clone will copy all the files from the remote repository to your local system whereas git pull will copy the recent changes done in the files.
+
+
+
+
+
