@@ -1,0 +1,50 @@
+1. How to Create an object in Java?
+
+Ans. To create an object in java first we have to create the blueprint or class of an object after that we use "new" keyword of JVM to create an object.
+
+Syntax:
+class_name object_name = new class_name();
+
+2. What is the use of a new keyword in Java?
+
+Ans. "new" keyword in Java is used to create an object of a class.
+
+3. What are the different types of variables in Java.
+
+Ans. There are there variables in Java which are as follows:
+ (a)Local variable
+ (b)Static Variable
+ (c)Instance variable
+
+4. What is the difference between instance variable and Local variables?
+Ans. 
+
+Instance variable:
+
+(a)Instance variables are declared directly inside the class and outside of any method.
+(b)Instance variables will be created at the time of object creation and destroyed at the time of object destruction.
+(c)Scope of instance variable is exactly the same as scope of object.
+(d)Initially instance variables have default values "null" for strings and "0" for int values.
+(e)Instance variable will be stored on the heap as part of the object.
+
+Local variable:
+
+(a)Local variables are declared within the method only.
+(b)Local variables will be created as part of the block execution in which it is declared and destroyed once the block execution completes.
+(c)Scope of Local variable is exactly the same as scope of block in which we declared.
+(d)Local variables have to be initialised with some value and does not have default values.
+(e)Local variable will be stored inside the stack.
+
+5. In which area memory is located for instance variable and Local variables?
+
+Ans. Instance variable is located inside the heap as part of the object whereas Local variables are located inside the stack.
+
+6. What is method overloading?
+
+Ans. Method overloading is a concept in Java where we can use the same name for different methods where method have either different number of parameters or different types of parameters.
+
+Example:
+
+calc(int) for int datatype
+calc(long) for long datatype
+calc(float) for float datatype
